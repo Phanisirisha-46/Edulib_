@@ -1,0 +1,25 @@
+.header {
+  background-color: #d2b48c;
+ 
+  padding:  10px;
+}
+
+.logo-image {
+  width: 55px;
+  height: 55px;
+  border: 1px solid rgb(59, 57, 57);
+  border-radius: 50%;
+  box-shadow: 2px 3px 4px black;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.large-icon {
+  font-size: 1.75rem;
+}
+
+.nav-link {
+  color: black;
+}
