@@ -12,31 +12,41 @@ const Catalog = () => {
     { sno: 6, bookName: 'Book Six', renewalDate: '2024-03-01', returnDate: '2024-03-15', fine: '$1' },
   ];
 
+  // Calculate total fine
+  const totalFine = data.reduce((sum, item) => sum + parseFloat(item.fine.replace('$', '')), 0);
+
   return (
     <div className='catalog-container'>
-      <h2>Catalog</h2>
-      <table className='catalog-table'>
-        <thead>
-          <tr>
-            <th>S.No</th>
-            <th>Book Name</th>
-            <th>Renewal Date</th>
-            <th>Return Date</th>
-            <th>Fine</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item) => (
-            <tr key={item.sno}>
-              <td>{item.sno}</td>
-              <td>{item.bookName}</td>
-              <td>{item.renewalDate}</td>
-              <td>{item.returnDate}</td>
-              <td>{item.fine}</td>
+        <h2>Catalog</h2>
+        <br />
+      <div className='catalog-main'>
+        <table className='catalog-table'>
+          <thead>
+            <tr>
+              <th>S.No</th>
+              <th>Book Name</th>
+              <th>Renewal Date</th>
+              <th>Return Date</th>
+              <th>Fine</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.sno}>
+                <td>{item.sno}</td>
+                <td>{item.bookName}</td>
+                <td>{item.renewalDate}</td>
+                <td>{item.returnDate}</td>
+                <td>{item.fine}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div className='total-fine-card'>
+          <h3>Total Fine</h3>
+          <p>${totalFine.toFixed(2)}</p>
+        </div>
+      </div>
     </div>
   );
 }

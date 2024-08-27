@@ -3,7 +3,7 @@
   }
   
   .catalog-table {
-    width: 100%;
+    width: 60%;
     border-collapse: collapse;
     margin-top: 20px;
   }
@@ -26,4 +26,27 @@
   .catalog-table tr:hover {
     background-color:#dbcab3; 
   }
+
+  .total-fine-card {
+  width: 25%;
+  height: 25%;
+  padding: 20px;
+  border: 2px solid #1f1d1d;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f2e9dd;
+}
+
+.total-fine-card h3 {
+  margin-top: 0;
+}
+
+.total-fine-card p {
+  font-size: 24px;
+  font-weight: bold;
+}
   
+.catalog-main {
+    display: flex;
+    justify-content: space-between;
+  }

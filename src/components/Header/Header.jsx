@@ -23,7 +23,7 @@ function Header() {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to="textbooks" className='nav-link'>
+            <Link to="textbook" className='nav-link'>
               <IoBookSharp className='fs-4 text-black'/> TextBooks
             </Link>
           </li>

@@ -4,6 +4,7 @@ import RootLayout from './RootLayout';
 import RoutingError from './RoutingError';
 import Home from './components/Home/Home';
 import Catalog from './components/Catalog/Catalog';
+import Textbook from './components/Textbook/Textbook';
 import './App.css';
 function App() {
 
@@ -21,6 +22,10 @@ function App() {
     {
       path:'/catalog',
       element:<Catalog/>,
+    },
+    {
+      path:'/textbook',
+      element:<Textbook/>,
     },
    
 
