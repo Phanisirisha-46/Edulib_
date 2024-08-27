@@ -5,6 +5,9 @@ import RoutingError from './RoutingError';
 import Home from './components/Home/Home';
 import Catalog from './components/Catalog/Catalog';
 import Textbook from './components/Textbook/Textbook';
+import Timings from './components/Timings/Timings';
+import Contact from './components/Contact/Contact';
+import Aboutus from './components/Aboutus/Aboutus';
 import './App.css';
 function App() {
 
@@ -26,6 +29,18 @@ function App() {
     {
       path:'/textbook',
       element:<Textbook/>,
+    },
+    {
+      path:'/timings',
+      element:<Timings/>,
+    },
+    {
+      path:'/aboutus',
+      element:<Aboutus/>,
+    },
+    {
+      path:'/contact',
+      element:<Contact/>,
     },
    
 

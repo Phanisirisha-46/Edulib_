@@ -10,17 +10,17 @@ function Footer() {
     <div className='d-flex justify-content-center footer'>
       <ul className='nav fs-5 p-3'>
         <li className='footer-nav-item'>
-          <Link to="https://fisheries.ap.gov.in/" className='footer-nav-link'>
+          <Link to="aboutus" className='footer-nav-link'>
             <AiFillInfoCircle className='fs-4 text-white me-2'/> About Us
           </Link>
         </li>
         <li className='footer-nav-item'>
-          <Link to="gallery" className='footer-nav-link'>
+          <Link to="timings" className='footer-nav-link'>
             <IoTimeSharp className='fs-4 text-white me-2'/> Timings
           </Link>
         </li>
         <li className='footer-nav-item'>
-          <Link to="https://maps.app.goo.gl/f5hxZp5iHz5ssNWt5" className='footer-nav-link'>
+          <Link to="contact" className='footer-nav-link'>
             <MdContactPhone className='fs-4 text-white me-2'/> Contact
           </Link>
         </li>
