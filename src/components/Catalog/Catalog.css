@@ -1,0 +1,29 @@
+.catalog-container {
+    padding: 20px;
+  }
+  
+  .catalog-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .catalog-table th,
+  .catalog-table td {
+    border: 2px solid #0e0d0d;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .catalog-table th {
+    background-color:#d2b48c; 
+  }
+  
+  .catalog-table tr {
+    background-color:#f2e9dd;
+  }
+  
+  .catalog-table tr:hover {
+    background-color:#dbcab3; 
+  }
+  

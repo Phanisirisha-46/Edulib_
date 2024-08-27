@@ -14,7 +14,7 @@ function Header() {
     <div className='d-flex justify-content-between align-items-center header'>
       <div className='d-flex align-items-center'>
         <img src={logo} alt="logo" className='logo-image' />
-        <h1 className='text-dark ms-3'>EduLib</h1>
+        <h3 className='text-dark ms-3'>EduLib</h3>
 
         <ul className='nav fs-5 ms-5'>
           <li className='nav-item'>
@@ -36,9 +36,15 @@ function Header() {
       </div>
 
       <div className='d-flex align-items-center'>
-        <BsFillBrightnessHighFill className='fs-4 large-icon mx-2' />
-        <IoToggle className='fs-4 large-icon mx-2' />
-        <IoPerson className='fs-4 large-icon mx-2' />
+        <button className='icon-button'>
+          <BsFillBrightnessHighFill className='fs-4 large-icon' />
+        </button>
+        <button className='icon-button'>
+          <IoToggle className='fs-4 large-icon' />
+        </button>
+        <button className='icon-button'>
+          <IoPerson className='fs-4 large-icon' />
+        </button>
       </div>
     </div>
   );
