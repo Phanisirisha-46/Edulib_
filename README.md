@@ -1,8 +1,7 @@
-# React + Vite
+# Edulib
+# Problem Statement
+Students struggle to locate books efficiently in the library due to inadequate search tools. They often forget to renew or return books on time, leading to fines and financial strain. The manual processes lack automated reminders, increasing the likelihood of missed deadlines. This results in unnecessary penalties and disrupts their academic activities. An improved system is needed to streamline book search, renewal, and return processes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Idea Description
+The proposed system aims to revolutionize the student library experience by integrating advanced search features and automated management tools. It will offer real-time book availability updates, intuitive search functionalities, and automated notifications for renewals and returns. This will help students efficiently locate books, remember important deadlines, and avoid unnecessary fines, thereby enhancing their academic journey and reducing administrative burdens.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
