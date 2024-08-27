@@ -9,8 +9,8 @@
   }
   
   .tag {
-    background-color: #007bff;
-    color: white;
+    background-color:#f2e9dd;
+    color: black;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
@@ -19,7 +19,7 @@
   }
   
   .tag.active {
-    background-color: #0056b3;
+    background-color: #d2b48c;
   }
   
   .card-container {
