@@ -4,7 +4,7 @@ Students struggle to locate books efficiently in the library due to inadequate s
 
 
 
-## Why We Chose This Problem
+## Why We Choose This Problem
 
 The **EduLib** project was initiated to address the difficulties students face in managing their academic resources effectively. Many students struggle to keep track of essential books, materials, and updates from various sources. **EduLib** aims to solve this by:
 
